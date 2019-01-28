@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans"
       rel="stylesheet"
     />
+    <!--Font: Fredoka One Type and Roboto Text-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -61,27 +67,71 @@
     <script src="assets/app.js"></script>
   </head>
   <body>
-    <div>
-      <div class="jumbotron">
-            <img src="images/caboose.jpg" alt="Smiley face" height="100" width="100">
+    <section id="navbar">
+      <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Owner</a></li>
+        <li><a href="#">Amenities</a></li>
+        <li><a href="#">Parents</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Programs</a></li>
+      </nav>
+    </section>
+    <div id="title">
+      <h1>The Little Caboose</h1>
+      <h5>Childcare & Learning Center</h5>
 
-        <h1 class="display-4">The Little Caboose!</h1>
-        <h3>Early Childhood and Learning Center</h3>
-        <p class="lead">
-          Our site is currently going through some renovations as we are
-          prepare for our grand opening of our new location in Newark, DE
-        </p>
-        <hr class="my-4" />
-        <p>
-          We are still located at 430 S Old Baltimore Pike # 1, Newark, DE
-          19702. Please feel free to call us at <span style="color:red">(302) 737-8854</span>. </p>
-          
-          <p>Or send us an
-          email at <a href = "mailto:little-caboose@comcast.net">little-caboose@comcast.net</a>.
-        </p>
-
-        </p>
+      <div id="contacts">
+        (302) 737-8854 <br />
+        430 Old Baltimore Pike - Newark, DE 19702
       </div>
     </div>
+
+    <section id="carousel">
+      <div class="carousel slide" data-ride="carousel">
+        <!-- <div id="disney">
+        "TODAY WE ARE A SHAPER OF THE WORLD OF TOMORROW." <br />
+        - WALT DISNEY
+      </div> -->
+        <ol id="indicators" class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/placeholder.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/placeholder.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/placeholder.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="lower">
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+    </section>
+    <footer>Copyright 2019</footer>
   </body>
 </html>
