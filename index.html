@@ -39,6 +39,10 @@
     />
     <!-- CSS Reset -->
     <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       type="text/css"
       media="screen"
@@ -67,37 +71,22 @@
     <script src="assets/app.js"></script>
   </head>
   <body>
-    <section id="navbar">
-      <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Owner</a></li>
-        <li><a href="#">Amenities</a></li>
-        <li><a href="#">Parents</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Programs</a></li>
-      </nav>
-    </section>
-    <div id="title">
-      <h1>The Little Caboose</h1>
-      <h5>Childcare & Learning Center</h5>
-
-      <div id="contacts">
-        (302) 737-8854 <br />
-        430 Old Baltimore Pike - Newark, DE 19702
+    <section id="header">
+      <div id="title">
+        <h1>The Little Caboose</h1>
+        <h5>Childcare & Learning Center</h5>
+        <div id="contact-info">
+          (302) 737-8854 <br />
+          430 Old Baltimore Pike - Newark, DE 19702
+        </div>
       </div>
-    </div>
-
+    </section>
     <section id="carousel">
       <div class="carousel slide" data-ride="carousel">
-        <!-- <div id="disney">
-        "TODAY WE ARE A SHAPER OF THE WORLD OF TOMORROW." <br />
-        - WALT DISNEY
-      </div> -->
-
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./images/placeholder.png"
+              src="./images/comingsoon.jpeg"
               class="d-block w-100"
               alt="..."
             />
@@ -121,22 +110,69 @@
     </section>
 
     <section id="middle">
-      <div class="boxes"></div>
-      <div class="boxes">
-        <img src="./images/stars.jpg" class="d-block w-100" alt="..." />
+      <div id="important">
+        <div class="boxes">
+          <img
+            src="./images/stars.jpg"
+            alt="delaware stars"
+            id="stars"
+            class="main-img"
+          />
+          Proud Finalist for The Governor's Award in Excellence in Early
+          Childhood Education Governor's B.E.S.T. Award Recipient Delaware Stars
+          Four Star Facility
+        </div>
+        <div class="boxes">
+          <img src="./images/map.png" alt="map" id="map" class="main-img" />
+          Directions Email
+        </div>
+        <div class="boxes">
+          <img
+            src="./images/caboose.png"
+            alt="caboose"
+            id="caboose-img"
+            class="main-img"
+          />
+          Our Amenities
+        </div>
       </div>
-      <div class="boxes"></div>
     </section>
-    <section id="lower">
-      <div id="map">
-        <img src="./images/map.png" class="d-block w-100" alt="..." />
-        <img
-          id="train"
-          src="./images/caboose.png"
-          class="d-block w-100"
-          alt="..."
-        />
+
+    <section id="tadpoles">
+      <div id="points">
+        <h2>Lorem ipsum dolor</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. At varius
+          vel pharetra vel turpis nunc eget lorem dolor. Tincidunt ornare massa
+          eget egestas.
+        </p>
+        <h5>Lorem ipsum dolor</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
+          egestas integer eget aliquet nibh. Mattis aliquam faucibus purus in
+          massa tempor nec feugiat.
+        </p>
+        <h5>Lorem ipsum dolor</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
+          egestas integer eget aliquet nibh. Mattis aliquam faucibus purus in
+          massa tempor nec feugiat.
+        </p>
       </div>
+
+      <img src="images/iphone.png" alt="iphone" id="iphone" />
+    </section>
+
+    <section id="lower">
+      <div class="nav-link">Owner's Message</div>
+      <div class="nav-link">Parent Infomation</div>
+      <div class="nav-link">Nutrition</div>
+      <div class="nav-link">Programs</div>
+      <div class="nav-link">School Closing Information</div>
+      <div class="nav-link">Teaching Opportunities</div>
     </section>
     <div id="footer">Copyright 2019</div>
   </body>
