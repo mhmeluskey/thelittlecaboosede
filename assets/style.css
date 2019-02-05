@@ -1,6 +1,6 @@
 .main-img {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
 }
 
 #iphone {
@@ -16,7 +16,6 @@
   width: 100%;
   padding: 10px;
   z-index: 3;
-  position: fixed;
 }
 
 #title h1 {
@@ -34,21 +33,20 @@
   margin-top: -140px;
   padding: 10px;
   z-index: 3;
+  margin-right: 0%;
 }
 
 .carousel-inner {
-  top: 150px;
-  bottom: 150px;
+  width: 80%;
+  margin: auto;
 }
 
 #middle {
-  margin-top: 150px;
   width: 100%;
 }
 
 #important {
   width: 100%;
-  margin-top: 180px;
 }
 
 .boxes {
@@ -61,17 +59,35 @@
   position: relative;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #tadpoles {
   background-color: beige;
+  position: relative;
+  float: left;
+}
+
+#iphone-div {
+  width: 30%;
+  position: relative;
+  float: right;
+  z-index: 1;
 }
 
 #points {
-  width: 50%;
+  width: 60%;
+  position: relative;
+  float: left;
+  padding: 50px;
 }
 
-#iphone {
+#dailyreport {
+  z-index: 2;
+  width: 225px;
+  margin-top: -570px;
+  margin-left: 40px;
+  height: 385px;
 }
 
 #lower {
