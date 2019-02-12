@@ -48,7 +48,7 @@ body {
 
 .boxes {
   border-radius: 2px;
-  background-color: white;
+  background-color: gray;
   height: 200px;
   width: 600px;
   box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
@@ -57,7 +57,7 @@ body {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  color: black;
+  color: white;
 }
 
 .map {
@@ -72,6 +72,10 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   color: black;
+}
+
+#girlsdrawing {
+  border-radius: 70%;
 }
 
 .main-img {
@@ -112,6 +116,26 @@ h6 {
 .fa-award {
   color: gold;
   margin-right: 10px;
+}
+
+.programs {
+  float: right;
+  position: relative;
+  margin-right: 125px;
+  margin-top: 30px;
+  font-family: "Raleway";
+}
+
+.serving {
+  position: absolute;
+  width: 60%;
+  margin-left: 220px;
+  margin-top: -120px;
+  color: #045084;
+}
+
+.serving a {
+  color: #045084;
 }
 
 /* tadpole information  */
@@ -180,7 +204,7 @@ h6 {
 }
 
 /* nav links */
-a {
+.navbar a {
   padding: 5px;
   font-family: "Raleway";
   font-size: 22px;
@@ -192,7 +216,7 @@ a {
   box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
 }
 
-a:hover {
+.navbar a:hover {
   background: url("../images/cloud.png") center;
   color: black;
   text-decoration: none;
