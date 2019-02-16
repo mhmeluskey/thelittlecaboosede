@@ -1,5 +1,6 @@
 body {
   font-display: "Open Sans";
+  width: 100%;
 }
 
 #header {
@@ -46,16 +47,29 @@ body {
   margin-left: 130px;
   font-family: "Raleway";
   font-size: 25px;
-  padding: 50px;
-  width: 400px;
-  height: 350px;
+  padding: 3%;
+  width: 30%;
+  height: 60%;
   z-index: 5;
-  border-radius: 20%;
-  border: solid black 5px;
+  border: solid beige 5px;
+  -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 10s; /* Firefox < 16 */
+  -ms-animation: fadein 10s; /* Internet Explorer */
+  -o-animation: fadein 10s; /* Opera < 12.1 */
+  animation: fadein 10s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #twenty {
-  font-size: 60px;
+  font-size: 230%;
 }
 
 .new-address {
@@ -134,8 +148,8 @@ h6 {
 .programs {
   float: right;
   position: relative;
-  margin-right: 125px;
-  margin-top: 30px;
+  margin-right: 150px;
+  margin-top: -170px;
   font-family: "Raleway";
 }
 
@@ -218,6 +232,12 @@ h6 {
 }
 
 /* nav links */
+
+#navigation {
+  width: 100%;
+  position: relative;
+}
+
 .navbar a {
   padding: 5px;
   font-family: "Raleway";
@@ -275,7 +295,7 @@ footer {
 }
 /* media queries  */
 
-/* @media screen and (max-width: 1260px) {
+@media screen and (max-width: 1260px) {
   #reportpic {
     z-index: 2;
     width: 225px;
@@ -284,4 +304,383 @@ footer {
     height: 400px;
     position: absolute;
   }
-} */
+}
+
+@media screen and (max-width: 1076px) {
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -400px;
+    margin-left: 130px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px;
+    width: 30%;
+    height: 40%;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #twenty {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -330px;
+    margin-left: 130px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px;
+    width: 30%;
+    height: 40%;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #twenty {
+    font-size: 100%;
+  }
+
+  #header {
+    background-color: black;
+    color: beige;
+    font-family: "Raleway";
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    z-index: 3;
+  }
+
+  #title h1 {
+    font-size: 30px;
+  }
+
+  #title h5 {
+    font-size: 15px;
+  }
+
+  #contact-info {
+    float: right;
+    background-color: beige;
+    color: black;
+    margin-top: -50px;
+    padding: 10px;
+    z-index: 3;
+    margin-right: 0%;
+    font-size: 20px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -280px;
+    margin-left: 130px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #twenty {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  #middle {
+    width: 100%;
+  }
+
+  #important {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f5f5f5;
+  }
+
+  .boxes {
+    border-radius: 2px;
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
+    overflow: auto;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  #girlsdrawing {
+    border-radius: 70%;
+  }
+
+  .main-img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+
+  #ribbon {
+    width: 5px;
+    float: left;
+    position: relative;
+  }
+  .rib-img {
+    height: 32px;
+    width: 50px;
+    margin-left: 120px;
+    margin-top: 22px;
+  }
+
+  h6 {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  #stars {
+    border: 8px black solid;
+  }
+
+  #proud {
+    position: absolute;
+    float: right;
+    width: 57%;
+    margin-left: 170px;
+    margin-top: -130px;
+    font-family: "Raleway";
+    font-size: 11px;
+  }
+
+  .fa-award {
+    color: gold;
+    margin-right: 10px;
+  }
+
+  .programs {
+    float: right;
+    position: relative;
+    margin-right: 125px;
+    margin-top: -30px;
+    font-family: "Raleway";
+  }
+
+  .serving {
+    position: absolute;
+    width: 50%;
+    margin-left: 120px;
+    margin-top: -120px;
+    color: #045084;
+    font-size: 18px;
+  }
+
+  .serving a {
+    color: #045084;
+  }
+
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -260px;
+    margin-left: 50px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #twenty {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #header {
+    background-color: black;
+    color: beige;
+    font-family: "Raleway";
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    z-index: 3;
+  }
+
+  #title h1 {
+    font-size: 30px;
+  }
+
+  #title h5 {
+    font-size: 15px;
+  }
+
+  #contact-info {
+    float: none;
+    background-color: beige;
+    color: black;
+    margin-top: 0px;
+    padding: 10px;
+    z-index: 3;
+    margin-right: 0%;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  #we-are {
+    position: relative;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    z-index: 5;
+    border: none;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #twenty {
+    font-size: 100%;
+  }
+
+  .new-address {
+    font-size: 15px;
+  }
+
+  .programs {
+    float: left;
+    position: relative;
+    margin-left: 120px;
+    margin-top: -110px;
+    font-family: "Raleway";
+    font-size: 20px;
+  }
+
+  .serving {
+    position: relative;
+    width: 60%;
+    margin-left: 120px;
+    margin-top: -60px;
+    color: #045084;
+    font-size: 18px;
+  }
+
+  .serving a {
+    color: #045084;
+  }
+
+  #iphone-div {
+    width: 100%;
+    position: relative;
+    float: right;
+  }
+
+  #points {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 50px;
+    font-display: "Open Sans";
+  }
+
+  #iphone {
+    width: 170px;
+    height: 330px;
+    z-index: 3;
+    position: relative;
+    margin-left: 70px;
+    margin-top: -50px;
+  }
+
+  #iphone2 {
+    width: 170px;
+    height: 330px;
+    z-index: 1;
+    position: relative;
+    margin-left: 170px;
+    margin-top: -350px;
+  }
+
+  #dailyreport {
+    z-index: 4;
+    width: 130px;
+    margin-top: -350px;
+    margin-left: 90px;
+    height: 230px;
+    position: relative;
+  }
+
+  #reportpic {
+    z-index: 2;
+    width: 130px;
+    margin-top: -400px;
+    margin-left: 190px;
+    height: 235px;
+    position: relative;
+  }
+  #tadpoles {
+    background-color: beige;
+    float: none;
+  }
+
+  .navbar a {
+    padding: 5px;
+    font-family: "Raleway";
+    font-size: 15px;
+    cursor: pointer;
+    background-color: gray;
+    width: 30%;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
+  }
+
+  .owner a {
+    font-size: 12px;
+  }
+}
