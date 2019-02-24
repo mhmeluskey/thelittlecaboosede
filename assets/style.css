@@ -300,7 +300,7 @@ footer {
   #reportpic {
     z-index: 2;
     width: 225px;
-    margin-top: -480px;
+    margin-top: 100px;
     margin-left: 240px;
     height: 400px;
     position: absolute;
@@ -684,4 +684,15 @@ footer {
   .owner a {
     font-size: 12px;
   }
+}
+
+.display-4 {
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+  background-image: url("../images/programs.jpg");
+  background-repeat: no-repeat;
+  /* background-position: 50%; */
 }
