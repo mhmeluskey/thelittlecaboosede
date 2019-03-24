@@ -1,6 +1,6 @@
 body {
   font-display: "Open Sans";
-  width: 100%;
+  width: 1600px;
 }
 
 #header {
@@ -55,7 +55,7 @@ body {
   -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 10s; /* Firefox < 16 */
   -ms-animation: fadein 10s; /* Internet Explorer */
-  -o-animation: fadein 10s; /* Opera < 12.1 */
+  -o-animations: fadein 10s; /* Opera < 12.1 */
   animation: fadein 10s;
 }
 
@@ -233,9 +233,8 @@ h6 {
 
 /* nav links */
 
-#navigation {
+.navigation {
   width: 100%;
-  position: relative;
 }
 
 .navbar a {
@@ -248,6 +247,18 @@ h6 {
   color: white;
   text-align: center;
   box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
+}
+
+.active-nav a {
+  padding: 5px;
+  font-family: "Raleway";
+  font-size: 22px;
+  cursor: pointer;
+  width: 30%;
+  color: white;
+  text-align: center;
+  box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
+  background: url("../images/cloud.png") center;
 }
 
 .navbar a:hover {
@@ -294,6 +305,35 @@ footer {
   background-color: beige;
   border-top: solid 5px black;
 }
+
+.infant {
+  color: white;
+  text-align: center;
+}
+
+.programs-circle {
+  width: 150px;
+  height: 150px;
+  margin-top: -50px;
+  margin-left: 25px;
+  position: absolute;
+  float: left;
+}
+
+/* owner page */
+.message {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.owner-header {
+  text-align: center;
+}
+
+.owner-text {
+  margin-top: 20px;
+}
+
 /* media queries  */
 
 @media screen and (max-width: 1260px) {
@@ -695,4 +735,15 @@ footer {
   background-image: url("../images/programs.jpg");
   background-repeat: no-repeat;
   /* background-position: 50%; */
+}
+
+.infant {
+  color: white;
+  text-align: center;
+}
+
+.programs-circle {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
 }
