@@ -1,5 +1,8 @@
 body {
   font-display: "Open Sans";
+}
+
+.body {
   width: 1600px;
 }
 
@@ -43,8 +46,8 @@ body {
   position: absolute;
   background: rgba(0, 0, 0, 0.55);
   color: white;
-  margin-top: -470px;
-  margin-left: 130px;
+  margin-top: -450px;
+  margin-left: 50px;
   font-family: "Raleway";
   font-size: 25px;
   padding: 3%;
@@ -99,6 +102,44 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   color: white;
+}
+
+.pboxes {
+  border-radius: 2px;
+  background-color: gray;
+  height: 300px;
+  width: 600px;
+  box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
+  overflow: auto;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.infant-p {
+  margin-left: 35%;
+  margin-right: 5%;
+  font-size: 12px;
+}
+
+.infant2p {
+  margin: 5%;
+  font-size: 12px;
+}
+
+.toddler-p {
+  margin-top: -25%;
+  margin-left: 35%;
+  font-size: 12px;
+  margin-right: 5%;
+}
+
+.toddler2p {
+  font-size: 12px;
+  margin: 5%;
+  margin-top: 7%;
 }
 
 #girlsdrawing {
@@ -249,16 +290,17 @@ h6 {
   box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
 }
 
-.active-nav a {
+.active a {
+  background: url("../images/cloud.png") center;
+  color: black;
+  text-decoration: none;
   padding: 5px;
   font-family: "Raleway";
   font-size: 22px;
   cursor: pointer;
-  width: 30%;
-  color: white;
+  background-color: gray;
+  width: 100%;
   text-align: center;
-  box-shadow: 2px 6px 6px 2px black, 2px 6px 6px 2px #999;
-  background: url("../images/cloud.png") center;
 }
 
 .navbar a:hover {
@@ -311,6 +353,21 @@ footer {
   text-align: center;
 }
 
+#baby-pic {
+  margin-top: -2.5%;
+  border-radius: 50%;
+}
+
+#toddler {
+  margin-top: -2.5%;
+  border-radius: 50%;
+}
+
+#prek {
+  margin-top: -2.5%;
+  border-radius: 50%;
+}
+
 .programs-circle {
   width: 150px;
   height: 150px;
@@ -334,6 +391,22 @@ footer {
   margin-top: 20px;
 }
 
+/* nutrition page */
+.table-dark {
+  /* background: url("../images/food.jpg"); */
+  width: 70%;
+  margin: auto;
+  /* opacity: 0.25; */
+}
+#sample {
+  text-align: center;
+}
+
+.waterm {
+  width: 650px;
+  text-align: center;
+}
+
 /* media queries  */
 
 @media screen and (max-width: 1260px) {
@@ -344,6 +417,25 @@ footer {
     margin-left: 240px;
     height: 400px;
     position: absolute;
+  }
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -400px;
+    margin-left: 130px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
   }
 }
 
@@ -370,6 +462,35 @@ footer {
 
   #twenty {
     font-size: 150%;
+  }
+}
+@media screen and (max-width: 960px) {
+  #we-are {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: -280px;
+    margin-left: 130px;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px;
+    width: 30%;
+    height: 40%;
+    z-index: 5;
+    border: solid beige 5px;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+  }
+
+  #title h1 {
+    font-size: 30px;
+  }
+
+  #title h5 {
+    font-size: 20px;
   }
 }
 
